@@ -89,7 +89,7 @@ endif ( )
 
 ## SOURCES
 # Generate luaconf.h
-configure_file ( src/luaconf.h.in ${CMAKE_CURRENT_BINARY_DIR}/luaconf.h )
+configure_file ( src/luaconf.h.in src/luaconf.h )
 
 # Sources and headers
 include_directories ( src ${CMAKE_CURRENT_BINARY_DIR} )
